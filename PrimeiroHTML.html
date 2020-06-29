@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>T&iacute;tulo da p&aacute;gina</title>
+        <title>Título da página</title>
+        <style type="text/css"> 
+            p {
+                font-size: 20px;
+            }
+            .cor_fundo{
+                background: darkgreen;
+            }
+        </style>
     </head>
     <body>
-        Essa &eacute; a minha primeira p&aacute;gina. <b>Esse texto est&aacute; em negrito</b>
-        <h1>Esse &eacute; um cabe&ccedil;alho muito grande</h1>
-        <h2>Esse &eacute; um cabe&ccedil;alho um pouco menor, mas bem grande ainda</h2>
-        <h3>Esse &eacute; um cabe&ccedil;alho nem t&atilde;o grande assim</h3>
-        <h4>Esse &eacute; um cabe&ccedil;alho m&eacute;dio</h4>
-        <h5>Esse &eacute; um cabe&ccedil;alho pequeno</h5>
-        <h6>Esse &eacute; um cabe&ccedil;alho muito pequeno</h6>
+        <div class="cor_fundo">
+            <h3>Meu primeiro div</h3>
+        </div>
+        Essa é a minha primeira página. <b>Esse texto está em negrito</b>
+        <h1>Esse é um cabeçalho muito grande</h1>
+        <h2>Esse é um cabeçalho um pouco menor, mas bem grande ainda</h2>
+        <h3>Esse é um cabeçalho nem tão grande assim</h3>
+        <h4>Esse é um cabeçalho médio</h4>
+        <h5>Esse é um cabeçalho pequeno</h5>
+        <h6>Esse é um cabeçalho muito pequeno</h6>
         <hr/>
-        <p>Agora faremos um par&aacute;grafo. A tag &apos;&it;hr /&gt;&apos; no c&oacute;digo serve para inserir uma linha 
-            horizontal, voc&ecirc; pode v&ecirc;-la acima.
+        <p>Agora faremos um parágrafo. A tag '&#60;hr />' no código serve para inserir uma linha 
+            horizontal, você pode vê-la acima.
         </p>
         <p>Note que ao criarmos outro, temos uma linha branca adicionada entre eles</p>
-        Agora o texto est&aacute; sendo escrito diretamente no corpo do documento, sem nenhuma formata&ccedil;&atilde;o.
+        Agora o texto está sendo escrito diretamente no corpo do documento, sem nenhuma formatação.
         <br/>
-        Use a tag vazia &apos;&it;br /&gt;&apos; para quebrar linhas (saltar linhas) sen&atilde;o o seu texto vai ficar 
+        Use a tag vazia '&#60;br />' para quebrar linhas (saltar linhas) senão o seu texto vai ficar 
         bem estranho.
         <hr/>
-        <h2 align="center">Ol&aacute; sejam bem-vindos ao meu primeiro site.</h2>
+        <h2 align="center">Olá sejam bem-vindos ao meu primeiro site.</h2>
         <hr/>
-        <p>Meu nome &eacute; Welinton J&uacute;nior Ceconello, tenho 24 anos, sou gr&ecirc;mista, atualmente estou 
-            desempregado devido ao v&iacute;rus (Covid-19) e estou aproveitando para estudar cursos online.
+        <p>Meu nome é Welinton Júnior Ceconello, tenho 24 anos, sou grêmista, atualmente estou 
+            desempregado devido ao vírus (Covid-19) e estou aproveitando para estudar cursos online.
         </p>
         <a href="https://www.google.com" target="_blank">Google</a>
         <br/>
@@ -35,20 +46,20 @@
         <p align="center">
             <img src="hamburguer.jpg" height="100" width="100">
         </p>
-        <p>Vejamos abaixo algumas listas e suas diferentes caracter&iacute;sticas.</p>
+        <p>Vejamos abaixo algumas listas e suas diferentes características.</p>
         <br/>
-        <p>Primeiramente, uma lista n&atilde;o ordenada</p>      
+        <p>Primeiramente, uma lista não ordenada</p>      
         <h4>Frutas</h4>
         <ul type="square">
-            <li>Ma&ccedil;&atilde;</li>
+            <li>Maçã</li>
             <li>Morango</li>
             <li>Laranja</li>
-            <li>Lim&atilde;o</li>
+            <li>Limão</li>
             <li>Abacaxi</li>
         </ul>
         <br/>
         <p>Veja agora uma lista ordenada</p>
-        <h4>Resultados finais do campeonato de F&oacute;rmula 1 de 1991.</h4>
+        <h4>Resultados finais do campeonato de Fórmula 1 de 1991.</h4>
         <ol type="A">
             <li>Senna</li>
             <li>Mansell</li>
@@ -61,11 +72,11 @@
         <p>Vamos definir algumas coisas abaixo</p>
         <h4>Bebidas</h4>
         <dl>
-            <dt>Caf&eacute;</dt>
+            <dt>Café</dt>
             <dd>Bebida quente e preta</dd>
-            <dt>Ch&aacute;</dt>
-            <dd>Tem de v&aacute;rias cores e pode ser servido tanto quente como gelado</dd>
-            <dt>&Aacute;gua</dt>
+            <dt>Chá</dt>
+            <dd>Tem de várias cores e pode ser servido tanto quente como gelado</dd>
+            <dt>Água</dt>
             <dd>Sem cor e com certeza gelada! :)</dd>
         </dl>
         <table border="3" cellpadding="15" cellspacing="5">
@@ -79,13 +90,13 @@
             </tr>
             <tr>
                 <td align="center">Teclado</td>
-                <td>Onde voc&ecirc; digita</td>
-                <td>51997092524</td>
-                <td>51995330305</td>
+                <td>Onde você digita</td>
+                <td>12123456789</td>
+                <td>12123456789</td>
             </tr>
             <tr>
                 <td align="right">Mouse</td>
-                <td>Onde voc&ecirc; mexe a seta</td>
+                <td>Onde você mexe a seta</td>
                 <td>&ensp;</td><!--não faz nada :)-->
                 <td>&ensp;</td><!--não faz nada :)-->
             </tr>
@@ -110,18 +121,18 @@
             <select name="servico">
                 <option value="email">E-mail</option>
                 <option value="agenda">Agenda</option>
-                <option value="noticias">Not&iacute;cias</option>
+                <option value="noticias">Notícias</option>
                 <option value="jogos">Jogos</option>
             </select>
             <br/>
             <input type="radio" name="servico_botao" value="email"/>E-mail<br/>
             <input type="radio" name="servico_botao" value="agenda"/>Agenda<br/>
-            <input type="radio" name="servico_botao" value="noticias"/>Not&iacute;cias<br/>
+            <input type="radio" name="servico_botao" value="noticias"/>Notícias<br/>
             <input type="radio" name="servico_botao" value="jogos"/>Jogos<br/>
             <br/>
             E-mail:<input type="checkbox" name="servico_cb" value="email"/><br/>
             Agenda:<input type="checkbox" name="servico_cb" value="agenda"/><br/>
-            Not&iacute;cias:<input type="checkbox" name="servico_cb" value="noticias"/><br/>
+            Notícias:<input type="checkbox" name="servico_cb" value="noticias"/><br/>
             Jogos:<input type="checkbox" name="servico_cb" value="jogos"/><br/>
             <br/>
             <input type="button" value="Bot&atilde;o"/>
